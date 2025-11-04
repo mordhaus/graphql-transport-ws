@@ -8,7 +8,9 @@ import (
 	"sync"
 	"time"
 
+	// --- MODIFIED TO USE YOUR FORK ---
 	"github.com/graph-gophers/graphql-transport-ws/graphqlws/internal/gql"
+	// --- END MODIFICATION ---
 )
 
 // operationMap holds active subscriptions.

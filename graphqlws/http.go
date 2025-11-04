@@ -6,10 +6,12 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/graph-gophers/graphql-transport-ws/graphqlws/internal/transport"
 
+	// --- MODIFIED TO USE YOUR FORK ---
 	"github.com/graph-gophers/graphql-transport-ws/graphqlws/internal/connection"
 	"github.com/graph-gophers/graphql-transport-ws/graphqlws/internal/gql"
+	"github.com/graph-gophers/graphql-transport-ws/graphqlws/internal/transport"
+	// --- END MODIFICATION ---
 )
 
 const (
